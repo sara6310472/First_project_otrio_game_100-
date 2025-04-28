@@ -1,0 +1,226 @@
+* {
+    font-family: 'Kalam', cursive;
+}
+
+html {
+    background-image: url(../image/3425081.jpg);
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
+}
+
+i {
+    font-size: 2em;
+    padding: 10px;
+}
+
+.user-name {
+    flex: 1;
+    background: none;
+    margin-top: 2em;
+}
+
+label {
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+}
+
+img {
+    width: 11em;
+    height: 7em;
+}
+
+.Create-acount,
+.login,
+#card-button-1,
+#card-button-2,
+#card-button-3,
+#card-button-4 {
+    border: none;
+    background-color: #ff1493;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    width: 11em;
+    height: 4em;
+    margin: 1em;
+}
+
+.Create-acount:hover,
+.login:hover,
+#card-button-1:hover,
+#card-button-2:hover,
+#card-button-3:hover,
+#card-button-4:hover {
+    box-shadow: 0 3px 6px rgb(0, 0, 0);
+}
+
+.game-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    flex-wrap: wrap;
+}
+
+.game-card-1,
+.game-card-2,
+.game-card-3,
+.game-card-4 {
+    max-width: 430px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1em;
+    padding: 2em;
+    text-align: center;
+}
+
+.game-card-1:hover,
+.game-card-2:hover,
+.game-card-3:hover,
+.game-card-4:hover {
+    box-shadow: 0 3px 6px rgb(0, 0, 0);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.close {
+    color: rgb(255, 255, 255);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #ff1493;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.logo-img img {
+    border-radius: 50%;
+}
+
+#color-box {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 18px;
+    transition: opacity 1s ease-out;
+}
+
+#color-box.hidden {
+    opacity: 0;
+}
+
+@media (max-width: 600px) {
+
+    .game-card-1,
+    .game-card-2,
+    .game-card-3,
+    .game-card-4 {
+        background: #fff;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 1em;
+        padding: 2em;
+        text-align: center;
+    }
+
+    .Create-acount,
+    .login {
+        margin: 1em;
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="../css/registration-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="icon" href="../image/game-icon.png" type="image/x-icon">
+    <title>registration</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="forms">
+            <div class="form login" id="login">
+                <span class="title">Login</span>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="email" id="emailS" placeholder="Enter Your Email" class="email" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" id="passwordS" class="password" placeholder="Enter Your Password"
+                            required>
+                        <i class="fas fa-eye" id="showHidePw"></i></i>
+                    </div>
+                    <div class="input-field button">
+                        <input type="submit" value="Log In">
+                    </div>
+                </form>
+
+                <div class="loginalert">Incorrect username or password</div>
+
+                <div class="login-signup">
+                    <span class="text"> don't have an account yet?
+                        <a href="#" class="text signup-link">Create an account</a>
+                    </span>
+                </div>
+            </div>
+
+            <div class="form signup" id="signup">
+                <span class="title">Create An Account</span>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" id="nameSignup" placeholder="Enter Your Name" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" id="emailSignup" placeholder="Enter Your Email" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" id="passwordSignup" class="password" placeholder="Enter a Password"
+                            required>
+                        <i class="fas fa-eye" id="showHidePw"></i></i>
+                    </div>
+                    <div class="input-field button">
+                        <input type="submit" value="Create an acount">
+                    </div>
+                </form>
+                <div class="Signinalert">"User already exists. Please log in."</div>
+                <div class="login-signup">
+                    <span class="text"> already have an account?
+                        <a href="#" class="text login-link">login</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../javaScript/registration-form.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,61 @@
+* {
+    font-family: 'Kalam', cursive;
+}
+
+html {
+    height: 100%;
+}
+
+header {
+    text-align: left;
+}
+
+button {
+    border: none;
+    background-color: #ff1493;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    width: 30em;
+    height: 4em;
+    margin: 1em;
+}
+
+i {
+    font-size: 2em;
+    padding: 1em;
+}
+
+body {
+    background-image: url(../image/3425081.jpg);
+    text-align: center;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+p {
+    font-size: 2em;
+}
+
+.Four-Players,
+.Three-Players {
+    font-size: 1em;
+    display: none;
+    color: red;
+    margin: 0;
+}

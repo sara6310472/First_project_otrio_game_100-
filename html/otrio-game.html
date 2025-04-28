@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="../css/otrio-game.css">
+    <link rel="icon" href="../image/game-icon.png" type="image/x-icon">
+    <title>Otrio</title>
+</head>
+
+<body>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+               <h2>you are playing the red rings.</h2>
+            </div>
+            <div class="modal-body">
+                <p>the computer plays the blue rings.</p>
+                <p> any other colors are played by the guest
+                    players.</p>
+            </div>
+        </div>
+    </div>
+    <div class="win-gif hide"><img src="../image/giphy.gif" alt="gif">
+        <div class="win-text">
+            <p class="winner-name"></p>
+            <a href="../html/home-page.html">home</a><a href="../html/game-intro.html">new game</a>
+        </div>
+    </div>
+    <div class="profile ">
+        <div>
+            <a href="../html/home-page.html"><i class="fa-solid fa-house"></i></a>
+            <a href="../html/game-instructions.html" target="_blank"> <i class="fa-regular fa-circle-question"></i></a>
+        </div>
+        <button id="new-game">New Game</button>
+        <div class="name">
+            <label class="name-label"></label>
+        </div>
+        <div class="numOfGame">
+            <label class="num-of-game-label"></label>
+        </div>
+        <div class="numOfWin">
+            <label class="num-of-win-label"></label>
+        </div>
+        <div class="shortTime">
+            <label class="short-time-label"></label>
+        </div>
+    </div>
+    <section id="game-board">
+    </section>
+    <div>
+    <div class="clock"> 
+        <i class="fa-regular fa-clock" style="color: #ffffff;"></i>
+        <label id="minutes">00</label><label>:</label><label id="seconds">00</label>
+<i class="fa-solid fa-volume-xmark"></i>
+    </div>
+</div>
+    <script src="../javaScript/otrio.js"></script>
+</body>
+
+</html>
