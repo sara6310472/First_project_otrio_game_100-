@@ -1,1 +1,1 @@
-# First_project_otrio_game_100-
+This project is a digital implementation of the classic strategy game Otrio, adapted for interactive play with a target score or goal of 100. The game focuses on tactical thinking, where players compete to align their pieces according to specific rules to win rounds and accumulate points. Developed to provide an intuitive and enjoyable user experience, the project highlights proficiency in game mechanics, turn-based logic, and user interface design.
